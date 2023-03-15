@@ -1,0 +1,189 @@
+/*css Curriculum*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Body*/
+
+body {
+    color: black;
+    background: linear-gradient(white, #d7cfe4);
+}
+
+
+/*Header*/
+
+header{
+    background: url(fondo1.png);
+    height: 480px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tituloheader{
+    min-width: auto;
+    margin: auto;
+    padding: 7em 0;
+}
+
+.tituloheader h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+}
+
+
+.contenido{
+    text-align: center;
+    margin: 2.5em 0;
+}
+
+.nya{
+    text-align: center;
+    color: white;
+    padding: 0.4em 1em;
+    border-radius: 60px;
+    font-size: 1.5em;
+    margin: 0.5em;
+
+}
+
+
+
+/*main*/
+
+
+.titulo-secundario{
+    text-align: center;
+    font-size: 2.5em;
+    margin: 2em 0 1em;
+    clear: center;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4em;
+    padding: 0;
+
+}
+
+.principal p{
+    margin: 20px 0 20px 0;
+    font-size: 1.1em;
+}
+
+.principal h3{
+    margin: 20px 0 20px 0;
+    font-size: 1.1em;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.subtitulo{
+    margin: 3em 0 0 auto;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#columna1{
+    margin: 2em 3% 4em 8%;
+    width: 25%;
+}
+
+
+#columna2{
+    margin: 2em 0 4em 1%;
+    width: 56%;
+    text-align: left;
+}
+
+.habilidades{
+    width: 60%;
+    margin: 1em auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 1em;
+}
+
+.habilidades h4{
+    margin: auto auto 1em auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.container{
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skills{
+    text-align: right;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.html{
+    background-color: #04aa6d;
+    animation: fillhtml 2s forwards;
+}
+
+.css{
+    background-color: #2196f3;
+    animation: fillcss 2s forwards;
+}
+
+.javascript{
+    background-color: #f44336;
+    animation: filljavascript 2s forwards;
+}
+
+@keyframes fillhtml {
+    0%{width: 0;}
+    100%{width: 90%;}    
+}
+
+@keyframes fillcss {
+    0%{width: 0;}
+    100%{width: 70%;}    
+}
+
+@keyframes filljavascript {
+    0%{width: 0;}
+    100%{width: 50%;}    
+}
+
+
+/*footer*/
+
+footer{
+    background: url(fondo2.png);
+    height: 125px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.final{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.final img{
+    margin: 2.8em 0;
+    width: 40px;
+    height: 40px;
+
+}
+
+.socialmedia{
+    font-size: 1.1em;
+    margin: 3.3em 0 3em 0.5em;
+}
